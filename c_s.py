@@ -237,8 +237,10 @@ while run:
                     score = 0
                     aux_score=0
                     P.level_up=0
-                    comet_array.clear()
-                    bullet_list.clear()
+                    # comet_array.clear()
+                    # bullet_list.clear()
+                    comet_array=[]
+                    bullet_list=[]
                     x_of_comet = 0
                     # y_gap=0
                     respawn_comets(0)
